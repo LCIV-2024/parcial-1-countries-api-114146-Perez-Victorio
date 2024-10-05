@@ -17,7 +17,7 @@ import java.util.stream.Collectors;
 
 @Service
 @RequiredArgsConstructor
-public class CountryService {
+public class CountryService implements CountryServiceInterface {
         private final RestTemplate restTemplate;
         private final CountryRepository countryRepository;
 
