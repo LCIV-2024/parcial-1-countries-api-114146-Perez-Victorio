@@ -1,0 +1,11 @@
+services:
+  gestion:
+    container_name: paises-service-app
+    image: paises-app:1.0.0
+    build: .
+    ports:
+      - "8080:8080"
+
+
+
+
